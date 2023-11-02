@@ -7,6 +7,13 @@ public class Medico {
     String endereco_email;
     String num_contato;
 
+    public void cadastro_medico(){
+        
+
+
+
+    }
+
     public void exibe_dados(){
         System.out.println("Nome: "+ this.nome_medico);
         System.out.println("CRM: "+ this.num_crm);
@@ -15,6 +22,5 @@ public class Medico {
         System.out.println("RG: "+ this.num_rg);
         System.out.println("RG: "+ this.endereco_email);
         System.out.println("RG: "+ this.num_contato);
-
     }
 }
