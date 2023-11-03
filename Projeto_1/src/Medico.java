@@ -73,12 +73,16 @@ public class Medico {
         this.nome_especialidade = especialidade;
     }
 
-    
 
-    public void cadastro_medico(String nome, int crm, String UF, String cpf, String rg, String email, String contato){
-
-
-
+    public Medico(String nome_medico, int num_crm, String nome_UF_crm, String num_cpf, String num_rg, String endereco_email, String num_contato, String nome_especialidade) {
+        this.nome_medico = nome_medico;
+        this.num_crm = num_crm;
+        this.nome_UF_crm = nome_UF_crm;
+        this.num_cpf = num_cpf;
+        this.num_rg = num_rg;
+        this.endereco_email = endereco_email;
+        this.num_contato = num_contato;
+        this.nome_especialidade = nome_especialidade;
     }
 
     public void exibe_dados(){
