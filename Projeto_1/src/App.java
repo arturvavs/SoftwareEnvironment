@@ -9,8 +9,9 @@ public class App {
         String rg = "2009009132966";
         String email = "arturavs@edu.unifor.br";
         String contato = "85-997376830";
+        String especialidade = "Clinica Médica";
 
-        Medico m1 = new Medico(nome,crm,uf,cpf,rg,email,contato);
+        Medico m1 = new Medico(nome,crm,uf,cpf,rg,email,contato,especialidade);
         m1.exibeDados();
 
         m1.validaCpf(cpf);
