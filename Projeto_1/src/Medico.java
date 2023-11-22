@@ -56,6 +56,7 @@ public class Medico {
         this.numCpf = cpf;
     }
 
+
     public void setRg(String rg) {
         this.numRg = rg;
     }
@@ -80,7 +81,7 @@ public class Medico {
         this.numRg = rg;
         this.enderecoEmail = email;
         this.numContato = contato;
-    }
+
 
     public void exibeDados() {
         System.out.println("Nome: " + this.nomeMedico);
