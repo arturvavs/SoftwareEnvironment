@@ -80,6 +80,7 @@ public class Medico {
         this.numRg = rg;
         this.enderecoEmail = email;
         this.numContato = contato;
+
     }
 
     public void exibeDados() {
@@ -92,6 +93,7 @@ public class Medico {
         System.out.println("Contato: " + this.numContato);
     }
 
+
     public boolean validaCpf(String cpf) {
         String regex = "\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}";
         if (cpf.matches(regex)) {
@@ -100,4 +102,3 @@ public class Medico {
             return false;
         }
     }
-}
