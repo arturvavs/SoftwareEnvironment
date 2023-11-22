@@ -2,6 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         System.out.print("Inicio da Atividade");
+
         String nome = "Artur";
         int crm = 175;
         String uf = "CE";
@@ -22,6 +23,7 @@ public class App {
         else{
             System.out.println("CPF inválido!");
         }
+
 
 
     }
