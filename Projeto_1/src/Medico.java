@@ -72,14 +72,14 @@ public class Medico {
         this.nomeEspecialidade = especialidade;
     }
 
-    public Medico(String nome, int crm, String uf, String cpf, String rg, String email, String contato) {
+    public Medico(String nome, int crm, String uf, String cpf, String rg, String email, String contato, String especialidade) {
         this.nomeMedico = nome;
         this.numCrm = crm;
         this.nomeUfCrm = uf;
         this.numCpf = cpf;
         this.numRg = rg;
         this.enderecoEmail = email;
-        this.numContato = contato;
+        this.nomeEspecialidade = especialidade;
 
     }
 
@@ -91,6 +91,7 @@ public class Medico {
         System.out.println("RG: " + this.numRg);
         System.out.println("E-mail: " + this.enderecoEmail);
         System.out.println("Contato: " + this.numContato);
+        System.out.println("Especialidade: " + this.nomeEspecialidade);
     }
 
 
